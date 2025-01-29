@@ -2,6 +2,6 @@ version: "2"
 
 services:
   balena-hello-world:
-    build: .
+    image: bh.cr/gh_gustrip/balena-nodejs-hello-world
     ports:
       - "80:80"
